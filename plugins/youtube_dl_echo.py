@@ -33,7 +33,7 @@ async def echo(bot, update):
             revoke=True
         )
         return
-    fmsg = await update.reply_text("🥱 checking 🥱", quote=True)   
+    fmsg = await update.reply_text("🧐 checking the given link 🥱", quote=True)   
     url = update.text
     youtube_dl_username = None
     youtube_dl_password = None
