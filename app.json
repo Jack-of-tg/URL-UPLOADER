@@ -1,6 +1,5 @@
 {
   "name": "URL Uploader",
-
   "description": "Telegram's Open Source URL Uploader Bot",
   "keywords": [
     "telegram",
@@ -9,7 +8,7 @@
   ],
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/unknownkidnapper",
-  "repository": "https://github.com/unknownkidnapper/URL-UPLOADER"
+  "repository": "https://github.com/unknownkidnapper/URL-UPLOADER",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is!",
@@ -29,19 +28,18 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "677799710"
+      "value": "680815375"
     },
     "BANNED_USERS": {
       "description": "Ban Unwanted members..",
       "value": "",
       "required": false
     },
-    
     "HTTP_PROXY": {
       "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
       "value": "",
       "required": false
-    },
+    }
   },
   "addons": [
     {
